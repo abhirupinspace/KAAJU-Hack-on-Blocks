@@ -1,0 +1,30 @@
+
+import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
+const App = () => {
+	return (
+		<main >
+			<Navbar />
+			<div className='bg-cover h-screen bg-fixed bg-[url("./assets/bg7.png")] '>
+				<div className="flex flex-col items-center min-h-screen p-20 spac">
+					<div className="flex flex-col min-h-screen p-20">
+						<h1 className="font-bold text-9xl text-left ">LEVEL UP YOUR SMART CONTRACTS</h1>
+						<h1 className="text-2xl">Visit Playground to start writing contracts.</h1>
+						<div className="flex py-5 gap-5">
+							<Link to={"/playground"}>
+							<button className="bg-white hover:bg-pink-200  text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+								VISIT PLAYGROUND
+							</button></Link>
+							<button className="bg-white hover:bg-pink-200 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+								LEARN MORE
+							</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</main>
+	);
+};
+
+export default App;

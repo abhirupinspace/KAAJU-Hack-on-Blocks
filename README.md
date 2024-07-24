@@ -1,12 +1,13 @@
-# Kofta - The Ultimate Smart Contract NFT Marketplace
-![bg](https://github.com/user-attachments/assets/def61800-e53d-4873-bed1-49fdfe356c3c)
+# Kaaju - The Ultimate Smart Contract NFT Marketplace
+![1](https://github.com/user-attachments/assets/92c0df3f-cea5-4279-ae00-0de26edc06a9)
 
-Kofta revolutionizes the smart contract ecosystem by leveraging the power of Scroll and The Graph to create a seamless, scalable, and secure platform for minting, buying, and selling smart contracts as NFTs.
+
+Kaaju revolutionizes the smart contract ecosystem by leveraging the power of Scroll and The Graph to create a seamless, scalable, and secure platform for minting, buying, and selling smart contracts as NFTs.
 
 
 ## Overview
 
-Kofta is a cutting-edge web3 application that transforms smart contracts into NFTs, creating a marketplace where these NFTs can be bought, sold, or auctioned. Our platform integrates Scroll for enhanced scalability and security, and The Graph for efficient real-time indexing and retrieval of contract metadata.
+Kaaju is a cutting-edge web3 application that transforms smart contracts into NFTs, creating a marketplace where these NFTs can be bought, sold, or auctioned. Our platform integrates Scroll for enhanced scalability and security, and The Graph for efficient real-time indexing and retrieval of contract metadata.
 
 ## Key Features
 
@@ -15,7 +16,8 @@ Kofta is a cutting-edge web3 application that transforms smart contracts into NF
 - **Efficient Data Indexing**: Leverage The Graph's subgraph technology for real-time indexing and retrieval of smart contract metadata.
 - **NFT Marketplace**: List, buy, sell, and auction smart contract NFTs on our robust marketplace.
 - **User-Friendly Interface**: Intuitive design for a seamless user experience, from contract uploading to NFT trading.
-![Screenshot 2024-07-19 082413](https://github.com/user-attachments/assets/fed63d18-be6d-47dc-81c4-88b38e60bef0)
+![2](https://github.com/user-attachments/assets/4b4e8991-9ffe-497b-872a-a897b33a65e7)
+
 
 ## Getting Started
 
@@ -29,8 +31,8 @@ Kofta is a cutting-edge web3 application that transforms smart contracts into NF
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/kofta.git
-   cd kofta
+   git clone https://github.com/your-username/Kaaju.git
+   cd Kaaju
    npm install
    ```
 2. Run the backend
@@ -47,23 +49,17 @@ Kofta is a cutting-edge web3 application that transforms smart contracts into NF
 # Usage
 ## Minting a Smart Contract NFT!
 
-![Screenshot 2024-07-19 082500](https://github.com/user-attachments/assets/ce40c545-f303-4d99-aee0-f9cd52d1cfb0)
+![Screenshot 2024-07-24 132643](https://github.com/user-attachments/assets/fdf16f87-7cc4-4f78-916b-15e2e55f8259)
+
 
 1. Go to the "Mint NFT" page.
 2. Fill in the required details (name, description, recipient address).
 3. Upload your smart contract file (.sol) and an image.
 4. Click "Mint NFT".
-## Listing an NFT on the Marketplace ![Screenshot 2024-07-19 082519](https://github.com/user-attachments/assets/b7452f0a-6524-4871-b27f-24a736a47b53)
+## Listing an NFT on the Marketplace ![Screenshot 2024-07-24 132609](https://github.com/user-attachments/assets/7cab0126-de87-434e-8b09-c7df2207c5cf)
+
 
 1. Navigate to the marketplace section.
 2. Select the NFT you want to list.
 3. Set the price or start an auction.
 4. Confirm the transaction in MetaMask.
-## Technical Details
-1. Scroll: Enhances the scalability and security of Ethereum transactions.
-2. The Graph: Provides efficient real-time indexing and retrieval of smart contract metadata.
-
-## Acknowledgements
-
-- [Scroll](https://scroll.io) - For providing a security-focused Ethereum scaling solution that enhances the scalability and security of our transactions.
-- [The Graph](https://thegraph.com) - For enabling efficient real-time indexing and retrieval of smart contract metadata through subgraph technology.
